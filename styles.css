@@ -1,18 +1,31 @@
-
-/* Your CSS Code here. */
 .holder{
-    display:grid;
-    grid-template-columns: repeat(2, 200px);
-    grid-template-rows: repeat(2, 200px);
-    row-gap: 10px;
-    column-gap: 10px;
-    background-color: bisque;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+	display:flex;
 }
 
-.item{
-    background-color: aqua;
-    height: 100px;
+.container < div{
+	border: 2px solid black;
+	color:pink;
+}
+
+.div1{
+	 background-color:green;
+}
+
+.div2{
+	 background-color:red;
+}
+
+.div3{
+	 background-color:blue;
+}
+.div1,.div2,.div3{
+	border: 2px solid;
+	height: 50px;
+    width:50px;
+}
+
+.holder{
+justify-content:space-between;
+	
+  flex-wrap: wrap;
 }
